@@ -1,0 +1,518 @@
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #   MAIN
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+body {
+	margin					: 0;
+	text-align			: center;
+	background			: #000 url(../images/background.jpg) no-repeat top;
+	font-family			: 'Trebuchet MS', Arial, Verdana, sans-serif;
+	font-size				: 12px;
+	color						: #fff;
+}
+
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #   LAYOUT
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+div#toprow {
+	margin-top			: 50px;
+	height					: 191px;
+	text-align			: center;
+	background			: url(../images/1px_white_50p.png) repeat-x top;
+}
+
+div#logo {
+	margin					: auto;
+	width						: 900px;
+	text-align			: right;
+}
+
+div#logobox {
+	margin					: 0 0 0 auto;
+	width						: 200px;
+	height					: 185px;
+	background			: #fff url(../images/logo.gif) no-repeat center;
+}
+
+div#menurow {
+	height					: 53px;
+	text-align			: center;
+	background			: url(../images/1px_white_50p.png) repeat-x;
+	background-position: 0px 29px;
+}
+
+div#menu {
+	margin					: 0 auto;
+	width						: 900px;
+}
+
+div#menuheader {
+	margin					: 0 0 0 700px;
+	padding					: 6px 15px 6px 15px;
+	width						: 170px;
+	background			: #fff;
+	text-transform	: uppercase;
+	text-align			: left;
+	color						: #000;
+	font-size				: 14px;
+}
+
+div#contentrow {
+	min-height			: 100px;
+	text-align			: center;
+	background			: url(../images/1px_white_50p.png) repeat-x;
+	background-position: 0px 29px;
+}
+
+div#content {
+	margin					: 20px auto 0 auto;
+	width						: 900px;
+}
+
+div#col1-3 {
+	width						: 296px;
+	text-align			: right;
+	float						: left;
+}
+div#col2-3 {
+	margin-left			: 6px;
+	width						: 296px;
+	text-align			: right;
+	float						: left;
+}
+div#col3-3 {
+	margin-left			: 6px;
+	width						: 296px;
+	text-align			: right;
+	float						: left;
+}
+
+div#col1-2 {
+	width						: 296px;
+	text-align			: right;
+	float						: left;
+}
+div#col2-2 {
+	margin-left			: 6px;
+	width						: 598px;
+	float						: left;
+	text-align			: left;
+}
+
+div.textbox {
+	padding					: 10px 0 8px 0;
+	text-align			: left;
+	border-top			: 1px solid #fff;
+	background			: url(../images/1px_black_50p.png);
+}
+
+div#footerbar {
+	margin-top			: 10px;
+	background			: url(../images/1px_white_50p.png) repeat-x;
+	text-align			: center;
+}
+
+div#footer {
+	margin					: 0 auto;
+	width						: 900px;
+	text-align			: left;
+}
+
+div#footmenu {
+	padding					: 8px 0 0 0;
+	text-align			: right;
+}
+
+div.news {
+	margin					: 3px 0 0 0;
+}
+
+div.news div.newsinfo {
+	float						: left;
+	width						: 296px;
+	background			: url(../images/1px_black_50p.png);
+	text-align			: right;
+}
+
+div.news div.newstext {
+	margin					: 0 0 0 302px;
+	background			: url(../images/1px_black_50p.png);
+	text-align			: left;
+}
+
+
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #   HEADERS
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+h1 {
+}
+
+h2 {
+	margin					: 0 0 0 auto;
+	padding					: 6px 15px 5px 15px;
+	width						: 170px;
+	background			: #fff;
+	font-family			: 'Trebuchet MS', Arial, Verdana;
+	font-weight			: normal;
+	font-size				: 13px;
+	text-align			: right;
+	text-transform	: uppercase;
+	color						: #000;
+}
+
+h3 {
+	margin					: 0;
+	padding					: 3px 5px 2px 5px;
+	background			: url(../images/1px_white_20p.png);
+	font-size				: 12px;
+	font-weight			: normal;
+	text-transform	: uppercase;
+}
+
+div.newstext h3 {
+	color						: #ff9c00;
+	font-size				: 20px;
+	background			: none;
+	text-transform	: none;
+}
+
+h4 {
+}
+
+h5 {
+}
+
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #   TABLES
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+table {
+	margin					: 0 auto;
+	width						: 100%;
+}
+
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #   FONTS
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+p {
+	margin					: 5px 0 5px 0;
+	padding					: 0 5px;
+	text-align			: justify;
+	color						: #d5d5d5;
+}
+
+div.newsinfo p {
+	text-align			: right;
+}
+
+div.newstext p {
+	font-size				: 13px;
+	padding-bottom	: 8px;
+}
+
+small {
+	font-size				: 11px;
+}
+
+big {
+	font-size				: 30px;
+	text-transform	: uppercase;
+}
+
+q {				/* Cytat */
+}
+
+cite {		/* ¬ród³o cytatu */
+}
+
+abbr {		/* Skrót */
+	border-bottom		: 1px dashed #a10a08;
+	cursor					: help;
+	letter-spacing	: 1px;
+}
+
+code {		/* Kod programu */
+}
+
+dfn {			/* Definicja */
+}
+
+strong {
+	font-weight			: bold;
+}
+
+em {
+
+}
+
+kbd {
+
+}
+
+
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #   LINKS
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+a {
+	text-decoration	: none;
+	color						: #ff9c00;
+}
+a:hover {
+	text-decoration	: none;
+	color						: #000;
+	background-color: #ff9c00;
+}
+a#actual {
+	text-decoration	: underline;
+	color						: #ff9c00;
+}
+a#actual:hover {
+	text-decoration	: none;
+	color						: #000;
+	background-color: #ff9c00;
+}
+
+div#menurow ul li a {
+	display					: block;
+	margin					: 29px 6px 0 0;
+	padding					: 4px 0 27px 0;
+	width						: 134px;
+	float						: left;
+	border-top			: 1px solid #fff;
+	color						: #ff9c00;
+	font-size				: 14px;
+	background			: url(../images/mainmenu-gradient-off.png) repeat-x;
+	background-position: 0 2px;
+}
+div#menurow ul li a:hover {
+	background			: url(../images/mainmenu-gradient-on.png) repeat-x top;
+	background-position: 0 2px;
+	text-decoration	: none;
+	color						: #000;
+}
+
+a.totop {
+	display					: block;
+	float						: left;
+	width						: 31px;
+	height					: 37px;
+	background			: #fff url(../images/arrow_top.png) no-repeat center;
+}
+a.totop:hover {
+	background			: #d99900 url(../images/arrow_top.png) no-repeat center;
+}
+
+a.fractalsoft {
+	margin-left			: 10px;
+	display					: block;
+	float						: left;
+	width						: 123px;
+	height					: 37px;
+	border-top			: 1px solid #fff;
+	background			: url(../images/1px_white_20p.png);
+}
+a.fractalsoft:hover {
+	background			: #d99900;
+}
+
+div#footmenu a, div.textbox a {
+	padding					: 0 2px;
+}
+div#footmenu a:hover, div.textbox a:hover {
+	color						: #000;
+	background			: #ff9c00;
+}
+
+div.textbox a.galeryitem {
+	display					: block;
+	margin					: 10px auto 0 auto;
+	padding					: 6px 5px 1px 5px;
+	width						: 162px;
+}
+div.textbox a.category {
+	display					: block;
+	margin					: 10px auto 0 auto;
+	padding					: 6px 5px 1px 5px;
+	width						: 162px;
+}
+div.textbox a.galeryitem:hover {
+	background			: url(../images/1px_white_20p.png);
+	opacity					: 0.8;
+}
+div.textbox a.category:hover {
+	background			: url(../images/1px_white_20p.png);
+	opacity					: 0.8;
+}
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #   LISTS
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+ul {
+	font-size				: 13px;
+	color						: #d5d5d5;
+}
+
+ul.circle {
+	font-size				: 13px;
+	color						: #d5d5d5;
+	list-style-type	: circle;
+}
+
+ul.none {
+	font-size				: 13px;
+	color						: #d5d5d5;
+	list-style-type	: none;
+}
+
+ul.disc {
+	font-size				: 13px;
+	color						: #d5d5d5;
+	list-style-type	: disc;
+}
+
+ul li {
+	padding-bottom	: 5px;
+}
+
+div#menurow ul {
+	display					: block;
+	width						: 700px;
+	list-style-type	: none;
+	margin					: 0;
+	padding					: 0;
+	float						: left;
+}
+div#menurow ul li {
+	display					: inline;
+	padding					: 0;
+}
+
+ol {
+}
+
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #   FORMS
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+form {
+	margin					: 0 10px;
+}
+
+input[type=text],
+input[type=email] {
+	margin					: 4px 0;
+	padding					: 4px 3px;
+	width						: 264px;
+	border					: 1px solid #4d4d4d;
+	background			: #000;
+	color						: #acacac;
+	font-family			: Verdana;
+	font-size				: 11px;
+	letter-spacing	: 1px;
+}
+
+input[type=password] {
+	margin					: 4px 0;
+	padding					: 4px 3px;
+	width						: 264px;
+	border					: 1px solid #4d4d4d;
+	background			: #000;
+	color						: #acacac;
+	font-family			: Verdana;
+	font-size				: 11px;
+	letter-spacing	: 1px;
+}
+
+textarea {
+	margin					: 4px 0;
+	padding					: 4px 3px;
+	width						: 264px;
+	height					: 140px;
+	border					: 1px solid #4d4d4d;
+	background			: #000;
+	color						: #acacac;
+	font-family			: Verdana;
+	font-size				: 11px;
+	letter-spacing	: 1px;
+}
+
+textarea:focus, input[type=text]:focus, input[type=password]:focus {
+	border					: 1px solid #d99900;
+}
+
+button {
+	padding					: 4px 8px 3px 8px;
+	background			: #fff;
+	text-transform	: uppercase;
+	font-size				: 12px;
+	border					: 1px solid #000;
+	font-family			: 'Trebuchet MS';
+}
+button:hover {
+	cursor					: pointer;
+	background			: #d99900;
+}
+
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #   IMAGES
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+a img {
+	border					: none;
+}
+
+a.galeryitem img {
+	border					: 1px solid #fff;
+}
+
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #   ALIGNMENTS
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.centered {
+	text-align			: center !important;
+}
+
+.toleft {
+	text-align			: left !important;
+}
+
+.toright {
+	text-align			: right !important;
+}
+
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #   OTHERS
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+hr {
+	border					: none;
+	line-height			: 1px;
+	background			: none;
+	border-bottom		: 1px solid #363636;
+}
+
+br.breaker {
+	clear						: both;
+	font-size				: 1px;
+}
+
+.link-telephone {
+  color: #fff;
+  padding-left: 0;
+}
